@@ -1,20 +1,20 @@
 <template>
     <Navbar />
-    <Main />
+    <Callback />
     <Footer />
 </template>
 
 <script>
-// @ is an alias to /src
+
+import Callback from '@/components/pages/callback.vue'
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/footer.vue'
-import Main from '@/components/pages/main.vue'
 export default {
-  name: 'Home',
+  name: 'Back',
   components: {
+    Callback,
     Navbar,
-    Footer,
-    Main
+    Footer
   }
 }
 </script>
