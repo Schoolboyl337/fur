@@ -15,7 +15,7 @@
       <ul class="lg:flex items-center justify-between text-base text-gray-100 pt-4 lg:pt-0">
         <li><h1 class="text-2xl font-medium  lg: px-0">Dota 2 Pro-tracker</h1></li>
         <li><a class="lg:p-4 py-3 px-0 block text-green-600 hover:text-opacity-75" href="#" @click="Home">Главная</a></li>
-        <li><a class="lg:p-4 py-3 px-0 block text-green-600 hover:text-opacity-50" href="#" @click="Games">Матчи</a></li>
+        <li><a class="lg:p-4 py-3 px-0 block text-green-600 hover:text-opacity-50" href="#" @click="Games">Персонажи</a></li>
         <li><a class="lg:p-4 py-3 px-0 block text-green-600 hover:text-opacity-50 lg:mb-0 mb-2" href="#" @click="Callback">Обратная связь</a></li>
       </ul>
     </nav>

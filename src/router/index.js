@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import callback from '../views/callback.vue'
 import games from '../views/games.vue'
-
+import NotFound from '../components/pages/404.vue'
 
 
 const routes = [
@@ -23,7 +23,8 @@ const routes = [
     component: games,
   
   },
-
+  { path: '/404', component: NotFound },  
+  { path: '/:catchAll(.*)', redirect:'404' },  
 ]
 
 const router = createRouter({

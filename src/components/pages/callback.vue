@@ -4,7 +4,7 @@
 			<div class="flex flex-col w-full lg:w-1/3 p-8 text-shadow">
 				<p class="text-yellow-300 text-5xl uppercase tracking-loose "><span>Отзыв</span></p>
 				<p class="text-3xl md:text-5xl my-4 leading-relaxed md:leading-snug"><span>Оставь свою идею!</span></p>
-				<p class="text-sm md:text-3xl leading-snug text-gray-50 text-opacity-100">
+				<p class="text-base md:text-3xl leading-snug text-gray-50 text-opacity-100">
 					<span>Мы читаем каждое сообщение и стараемся сделать свой сайт лучше для вас ...</span>
 				</p>
 			</div>
@@ -59,12 +59,9 @@ span{
 	text-shadow: 3px 1px black;
 }
 @media (max-width:900px){
-	.lol{
-	background-image: url('../../assets/callback.jpg');
-	background-position: 0 0;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	}
+	span{
+	text-shadow: 2px 1px black;
+}
 } ;
 	
 
